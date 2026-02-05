@@ -71,3 +71,6 @@ footer:
 
     designedBy:
         other: Tema {{ .Theme }} dissenyat per {{ .DesignedBy }}
+
+    supportMe:
+        other: Dona'm suport en Ko-fi
