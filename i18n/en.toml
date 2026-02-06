@@ -45,3 +45,4 @@ darkMode   = "Dark Mode"
 [footer]
     builtWith  = "Built with {{ .Generator }}"
     designedBy = "Theme {{ .Theme }} designed by {{ .DesignedBy }}"
+    supportMe = "Support me on Ko-fi"
