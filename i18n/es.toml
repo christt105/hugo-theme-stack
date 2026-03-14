@@ -22,6 +22,13 @@ darkMode   = "Modo oscuro"
         one   = "Tiempo de lectura {{ .Count }} minuto"
         other = "Tiempo de lectura {{ .Count }} minutos"
 
+    [article.alert]
+        note      = "Nota"
+        tip       = "Consejo"
+        important = "Importante"
+        warning   = "Advertencia"
+        caution   = "Precaución"
+
 [notFound]
     title    = "No Encontrado"
     subtitle = "Esta página no existe"
@@ -46,3 +53,27 @@ darkMode   = "Modo oscuro"
     builtWith  = "Creado con {{ .Generator }}"
     designedBy = "Tema {{ .Theme }} diseñado por {{ .DesignedBy }}"
     supportMe = "Apóyame en Ko-fi"
+
+[cookies]
+    title             = "Consentimiento de cookies"
+    text              = "Utilizamos cookies para mejorar su experiencia de navegación y analizar el tráfico del sitio."
+    acceptAll         = "Aceptar todo"
+    deny              = "Rechazar"
+    managePreferences = "Gestionar preferencias"
+    settingsTitle     = "Preferencias de cookies"
+    savePreferences   = "Guardar preferencias"
+    cancel            = "Cancelar"
+    footerLink        = "Configuración de cookies"
+    commentsDisabled  = "Los comentarios están desactivados hasta que acepte las cookies funcionales."
+
+    [cookies.necessary]
+        title = "Necesarias"
+        text  = "Estas cookies son necesarias para el funcionamiento del sitio web y no se pueden desactivar."
+
+    [cookies.analytics]
+        title = "Analíticas"
+        text  = "Estas cookies nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web."
+
+    [cookies.functional]
+        title = "Funcionales"
+        text  = "Estas cookies permiten funciones como comentarios y contenido incrustado."
