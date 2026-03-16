@@ -51,7 +51,7 @@
                     {{- $content = .Content -}}
                 {{- end -}}
                 {{- $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) -}}
-                {{- if $image.Resource -}}
+                {{- if $image -}}
                     {{- $imgTag := printf "<img src=\"%s\" alt=\"Featured image of post %s\" />" ($image.Permalink | absURL) .Title -}}
                     {{- $content = printf "%s%s" $imgTag $content -}}
                 {{- end -}}
